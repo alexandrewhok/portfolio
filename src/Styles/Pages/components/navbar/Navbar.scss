@@ -1,1 +1,31 @@
- 
+@import "../../../base.scss";
+
+.navbar {
+  //background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  position: sticky;
+  width: 100%;
+  z-index: 2;
+  padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+
+  &-logo {
+    list-style: none;
+    &-elements {
+      padding: 0.25rem;
+      cursor: pointer;
+    }
+  }
+  &-menu {
+    list-style: none;
+    justify-content: flex-end;
+
+    &-elements {
+      display: inline-block;
+      padding: 0 2rem 1.5rem 2rem;
+      cursor: pointer;
+    }
+  }
+}

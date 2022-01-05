@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-text {
+  font-family: "ClashDisplay-Regular";
+  font-size: 1rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.big-text-banner {
+  font-family: "ClashDisplay-Semibold";
+  font-size: 6rem;
+  display: block;
+  color: #ed635d;
+}
+
+.big-text-contact {
+  font-family: "ClashDisplay-Semibold";
+  font-size: 9rem;
+  display: block;
+  color: #ed635d;
+}
+
+.social-text {
+  font-family: "ClashDisplay-Medium";
+  font-size: 2.5rem;
+  display: block;
+  color: white;
+  text-decoration: underline;
+}

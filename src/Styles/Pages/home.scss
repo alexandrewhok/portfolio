@@ -1,0 +1,16 @@
+.home {
+  padding-top: 6em;
+  &-project {
+    &-number {
+      position: absolute;
+      top: 8rem;
+      left: 75rem;
+    }
+    &-banner {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: -1;
+    }
+  }
+}

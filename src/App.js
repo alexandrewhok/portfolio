@@ -4,7 +4,7 @@ import Home from './Pages/home';
 import About from './Pages/about';
 import Contact from './Pages/contact';
 import './Styles/applications.scss';
-
+import projects from "./local/projects.json";
 
 
 
