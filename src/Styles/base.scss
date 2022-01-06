@@ -4,8 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #1c1c1c;
   overflow-y: scroll;
+}
+
+body {
+  background-color: #1c1c1c;
 }
 
 *::-webkit-scrollbar {
@@ -40,4 +43,24 @@
   display: block;
   color: white;
   text-decoration: underline;
+}
+
+.about-text {
+  font-family: "Poppins-Regular";
+  font-size: 1.19rem;
+  color: white;
+}
+
+.subtitle-text {
+  font-family: "ClashDisplay-Medium";
+  font-size: 6rem;
+  display: block;
+  color: #ed635d;
+}
+
+.experience-text {
+  font-family: "ClashDisplay-Medium";
+  font-size: 1.5rem;
+  display: block;
+  color: white;
 }

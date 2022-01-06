@@ -6,27 +6,35 @@ export default function home() {
     return (
         <Layout>
             <div className="home">
-               {/*
-                <div className="home-project"> 
-                    <div className="home-project-number big-text"> 01 </div>
-                        <img src="images/banner-mezzoo.jpg" className="home-project-banner" alt="" />
-                        <div className="home-project-name big-text"> Mezzoo </div>    
-                 </div>
-                 <div className="home-project"> 
-                    <div className="home-project-number big-text"> 02 </div>
-                        <img src="images/banner-mezzoo.jpg" className="home-project-banner" alt="" />
-                        <div className="home-project-name big-text"> Mezzoo </div>    
-                 </div>
-               
                <div className="home-projects">
                 
                  <CardProject
-                   number={("project-n1")}
+                   number="01"
                    image="images/banner-mezzoo.jpg"
-                   title={("project-name1")} />
+                   title="Mezzoo" />
 
+                <CardProject
+                   number="02"
+                   image="images/banner-lavoglia.jpg"
+                   title="La Voglia" />
+                   
+                <CardProject
+                   number="03"
+                   image="images/banner-mezzoo.jpg"
+                   title="Mezzoo" />
+
+                <CardProject
+                   number="03"
+                   image="images/banner-mezzoo.jpg"
+                   title="Mezzoo" />
+
+                <CardProject
+                   number="03"
+                   image="images/banner-mezzoo.jpg"
+                   title="Mezzoo" />
+              
+              
                </div>
-               */}
             </div>
         </Layout>
     )

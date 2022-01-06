@@ -1,0 +1,39 @@
+.about {
+  margin: 3rem 6rem 0 6rem;
+  padding-bottom: 11rem;
+  &-hero {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+
+    &-intro {
+      width: 50%;
+
+      .about-text {
+        margin: 3rem;
+      }
+    }
+
+    &-photo {
+      padding-top: 5rem;
+      padding-right: 3rem;
+      object-fit: cover;
+    }
+  }
+
+  &-experience {
+    padding-top: 5rem;
+    display: block;
+
+    &-info {
+      margin-top: 2rem;
+      border-top: 1px solid white;
+      display: flex;
+      justify-content: space-between;
+
+      .experience-text {
+        padding-top: 2rem;
+      }
+    }
+  }
+}
