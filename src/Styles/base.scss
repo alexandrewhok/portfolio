@@ -5,10 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   overflow-y: scroll;
+  cursor: none;
 }
 
 body {
-  background-color: #1c1c1c;
+  //background-color: #1c1c1c;
+  background-color: black;
 }
 
 *::-webkit-scrollbar {
@@ -21,13 +23,37 @@ body {
   display: block;
   text-decoration: none;
   color: white;
+  @include sm {
+    font-size: 1.5rem;
+  }
 }
 
 .big-text-banner {
   font-family: "ClashDisplay-Semibold";
-  font-size: 6rem;
+  font-size: 3rem;
   display: block;
   color: #ed635d;
+
+  @include lg {
+    font-size: 2rem;
+  }
+  @include sm {
+    font-size: 1.2rem;
+  }
+}
+
+.text-banner {
+  font-family: "ClashDisplay-Semibold";
+  font-size: 1.2rem;
+  display: block;
+  color: #ed635d;
+
+  @include lg {
+    font-size: 1rem;
+  }
+  @include sm {
+    font-size: 0.8rem;
+  }
 }
 
 .big-text-contact {
@@ -35,6 +61,17 @@ body {
   font-size: 9rem;
   display: block;
   color: #ed635d;
+
+  @include xl {
+    font-size: 7rem;
+  }
+  @include lg {
+    font-size: 6rem;
+  }
+
+  @include md {
+    font-size: 4rem;
+  }
 }
 
 .social-text {
@@ -43,12 +80,24 @@ body {
   display: block;
   color: white;
   text-decoration: underline;
+
+  @include xl {
+    font-size: 2rem;
+  }
+
+  @include md {
+    font-size: 1.5rem;
+  }
 }
 
 .about-text {
   font-family: "Poppins-Regular";
-  font-size: 1.19rem;
+  font-size: 1rem;
   color: white;
+
+  @include lg {
+    font-size: 0.8rem;
+  }
 }
 
 .subtitle-text {
@@ -56,6 +105,17 @@ body {
   font-size: 6rem;
   display: block;
   color: #ed635d;
+
+  @include xl {
+    font-size: 5rem;
+  }
+
+  @include lg {
+    font-size: 3rem;
+  }
+  @include sm {
+    font-size: 2rem;
+  }
 }
 
 .experience-text {
@@ -63,4 +123,12 @@ body {
   font-size: 1.5rem;
   display: block;
   color: white;
+
+  @include xl {
+    font-size: 1.3rem;
+  }
+
+  @include lg {
+    font-size: 1rem;
+  }
 }

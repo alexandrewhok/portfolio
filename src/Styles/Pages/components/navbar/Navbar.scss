@@ -25,7 +25,21 @@
     &-elements {
       display: inline-block;
       padding: 0 2rem 1.5rem 2rem;
-      cursor: pointer;
+    }
+    @include sm {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-end;
     }
   }
+
+  @include sm {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.navbar-text:hover {
+  color: yellow;
+  transition: 0.5s;
 }

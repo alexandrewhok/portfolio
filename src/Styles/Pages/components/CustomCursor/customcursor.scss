@@ -1,0 +1,25 @@
+.app-cursor {
+  z-index: 1000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid yellow;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+  mix-blend-mode: difference;
+}
+
+.secondary-cursor {
+  z-index: 1000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+  //mix-blend-mode: difference;
+}

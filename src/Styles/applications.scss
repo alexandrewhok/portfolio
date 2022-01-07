@@ -1,7 +1,8 @@
 @import "./variables.scss";
+@import "./breakpoints.scss";
 
 @import "./Pages/components/navbar/Navbar.scss";
-
+@import "./Pages/components/CustomCursor/customcursor.scss";
 @import "./Pages/home.scss";
 @import "./Pages/contact.scss";
 @import "./Pages/about.scss";
