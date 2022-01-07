@@ -27,7 +27,7 @@ export default function home() {
                 <CardProject
                    number="Protótipo - Estágio Acin Group"
                    image="images/banner-acin.jpg"
-                   title="Mezzoo" />
+                   title="Acin website" />
               
                </div>
             </div>
