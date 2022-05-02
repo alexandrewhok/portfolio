@@ -16,20 +16,24 @@ export default function about() {
                 <div className="about-experience">
                     <div className="subtitle-text">Experiência</div>
                     <div className="about-experience-info">
-                        <div className="experience-text">Colaborador de Imagem Shift Appens</div>
-                        <div className="experience-text">Atualmente</div>
+                        <div className="experience-text">Secretário de Imagem - Queima das fitas Coimbra</div>
+                        <div className="experience-text">jan de 2022 - atualmente</div>
+                    </div>
+                    <div className="about-experience-info">
+                        <div className="experience-text">Colaborador de Imagem Shift Appens </div>
+                        <div className="experience-text">set de 2021 - atualmente</div>
                     </div>
                     <div className="about-experience-info">
                         <div className="experience-text">Núcleo de Estudantes de Informática</div>
-                        <div className="experience-text">Atualmente</div>
+                        <div className="experience-text">set de 2019 - atualmente</div>
                     </div>
                     <div className="about-experience-info">
                         <div className="experience-text">Estágio UX/UI Design na Acin</div>
-                        <div className="experience-text">1 meses</div>
+                        <div className="experience-text">jul de 2021 - ago de 2021 · 2 meses</div>
                     </div>
                     <div className="about-experience-info">
-                        <div className="experience-text">Estágio UX/UI Design na LIM9</div>
-                        <div className="experience-text">1 meses</div>
+                        <div className="experience-text">Estágio UX/UI, AR e VR Design na LIM9</div>
+                        <div className="experience-text">jul de 2020 - ago de 2020 · 2 meses</div>
                     </div>
                     <div className="about-experience-info"></div>
                 </div>

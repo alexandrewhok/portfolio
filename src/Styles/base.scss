@@ -132,3 +132,35 @@ body {
     font-size: 1rem;
   }
 }
+
+.intro-projeto {
+  font-family: "ClashDisplay-Bold";
+  font-size: 3rem;
+  display: block;
+  color: #ed635d;
+  letter-spacing: 0.2rem;
+
+  @include lg {
+    font-size: 2rem;
+  }
+  @include sm {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+.info-projeto {
+  font-family: "ClashDisplay-Semibold";
+  font-size: 1.2rem;
+  display: block;
+  color: #ffffff;
+  
+
+  @include lg {
+    font-size: 2rem;
+  }
+  @include sm {
+    font-size: 1.2rem;
+  }
+}

@@ -5,8 +5,9 @@
   margin-top: 1rem;
   padding-bottom: 5rem;
 
-  &-img {
-    width: 50%;
+ 
+    &-img{
+    width: 100vh;
     transition-duration: 0.5s;
     @include md {
       width: 80%;
@@ -15,8 +16,10 @@
       width: 100%;
     }
   }
+  
+  
   &-img:hover {
-    width: 60%;
+    width: 110vh;
     transition-duration: 0.5s;
 
     @include md {
@@ -27,9 +30,11 @@
     }
   }
   &-body {
-    width: 30%;
+    width: 40%;
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     @include md {
       width: 50%;
       display: flex;
