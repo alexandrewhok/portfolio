@@ -8,7 +8,7 @@ import acin from './Pages/acin';
 import voglia from './Pages/voglia';
 import qf22 from './Pages/qf22';
 import './Styles/applications.scss';
-import ClipLoader from "react-spinners/ClipLoader";
+import GridLoader from "react-spinners/GridLoader";
 
 
 function App() {
@@ -17,11 +17,18 @@ function App() {
       setLoading(true)
       setTimeout(()=>{
           setLoading(false)
-      },4000)
-    },[])
+      },3000)
+    },[]);
 
   return ( 
-    
+
+    <div>
+     {loading ? (
+        <div className="loader">
+        <GridLoader color="#ed635d" loading={loading} size={20} />
+        </div>
+      ) : (
+        <>     
    <Router>
      <Switch>
        <Route path='/' component={Home} exact />
@@ -33,6 +40,9 @@ function App() {
        <Route path='/qf22' component={qf22} exact />
      </Switch>
    </Router>
+      </>
+      )} 
+   </div>
   );
 }
 

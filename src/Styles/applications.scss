@@ -9,3 +9,12 @@
 @import "./Pages/project.scss";
 
 @import "./Pages/components/CardProject.scss";
+
+.loader{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
