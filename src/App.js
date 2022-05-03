@@ -7,6 +7,7 @@ import altabaixa from './Pages/altabaixa';
 import acin from './Pages/acin';
 import voglia from './Pages/voglia';
 import qf22 from './Pages/qf22';
+import mezoo from './Pages/mezoo';
 import './Styles/applications.scss';
 import GridLoader from "react-spinners/GridLoader";
 
@@ -38,6 +39,7 @@ function App() {
        <Route path='/acin' component={acin} exact />
        <Route path='/voglia' component={voglia} exact />
        <Route path='/qf22' component={qf22} exact />
+       <Route path='/mezoo' component={mezoo} exact />
      </Switch>
    </Router>
       </>

@@ -11,7 +11,7 @@ export default function home() {
     return (
         <Layout>
           <div className="projeto">
-            <div className="intro-projeto">Voglia App</div>
+            <div className="intro-projeto">Mezoo App</div>
                         <div className="projeto-intro">
                             <div className="projeto-intro-left">
                             <div className="about-text projeto-intro-left-type">Estágio</div>
@@ -25,7 +25,14 @@ export default function home() {
                                 </div>
                             </div>
                             </div>
-                        <div className="about-text projeto-intro-right">Branding e Protótipo feito durante o estágio realizado no mês de julho de 2020 na empresa LIM9. Consiste numa aplicação onde o utilizador explora e entra virtualmente numa série de restaurantes virtuais e visualiza a ementa através de realidade aumentada.</div>
+                        <div className="about-text projeto-intro-right">Branding e Protótipo feito durante o estágio feito no
+mês de julho de 2020 na empresa LIM9.
+Consiste num jogo feito para os mais novos, como forma
+de exploração e aprendizagem sobre os animais que estão
+expostos no museu. Estes exploram todos os pontos
+indicados apontando a câmera, visualizando os animais e
+os objetos em AR que necessitam de recolher para
+concluir o jogo.</div>
                 </div>
           </div>
           <div className='projeto-content'>
@@ -37,7 +44,7 @@ export default function home() {
           <div className="projeto-content-link">
             <div className="info-projeto">Link de simulação do protótipo:</div>
             <div className='info-projeto projeto-content-link-video'>
-            <a target="_blank" href="https://www.youtube.com/watch?v=Dz0UH-J2RjM">Vídeo</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=co2IX0Ycl_c&ab_channel=AlexandreLucas">Vídeo</a>
             </div>
           </div>
         </Layout>

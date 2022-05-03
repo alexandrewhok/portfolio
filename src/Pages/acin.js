@@ -29,10 +29,9 @@ export default function home() {
                 </div>
           </div>
           <div className='projeto-content'>
-        <img className="projeto-content-images" src="images/banner-a&b.jpg" alt="cover"></img>
-        <img className="projeto-content-images" src="images/ab1.jpg" alt="cover"></img>
-        <img className="projeto-content-images" src="images/ab2.jpg" alt="cover"></img>
-        <img className="projeto-content-images" src="images/ab3.jpg" alt="cover"></img>
+        <img className="projeto-content-images" src="images/banner-acin.jpg" alt="cover"></img>
+        <img className="projeto-content-images" src="images/acin1.jpg" alt="cover"></img>
+        <img className="projeto-content-images" src="images/acin2.jpg" alt="cover"></img>
 
           </div>
         </Layout>

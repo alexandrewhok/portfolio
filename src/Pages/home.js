@@ -38,7 +38,8 @@ export default function home() {
                 <CardProject
                    number="Protótipo - Estágio LIM9"
                    image="images/banner-mezzoo.jpg"
-                   title="Mezzoo" />
+                   title="Mezzoo" 
+                    location="/mezoo"/>
                    
                
               
