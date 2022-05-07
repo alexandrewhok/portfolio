@@ -41,9 +41,8 @@ export default function home() {
                    title="Mezzoo" 
                     location="/mezoo"/>
                    
-               
-              
                </div>
+            <div className="about-text home-info">Website em fase de contrução :)    </div>
             </div>
         </Layout>
     )

@@ -32,10 +32,11 @@ export default function home() {
                                 </div>
                             </div>
                             </div>
-                        <div className="about-text projeto-intro-right">Alta Baixa deve apresentar-se como uma revista que se propõe a reflectir sobre todos os aspectos da tipografia, incluindo a sua história, e cujo conteúdo é deliberadamente eclético. Visa explorar as estruturas de organização e apresentação de conteúdos e desenvolver um conhecimento profundo das possibilidades do tipo utilizado, bem como da composição.</div>
+                        <div className="about-text projeto-intro-right">A identidade desta edição é inspirada na cultura Portuguesa e na cidade de Coimbra. Recorremos à calçada e aos azulejos portugueses, tão nossos característicos, para encontrar as diferentes formas que se encontram presentes no logótipo, merch, credenciais, etc, assim como à arquitetura da cidade, para retirar as formas utilizadas na divulgação realizada nas redes sociais. Os gradientes utilizam as diferentes cores das oito Faculdades da Universidade e o preto e o branco são as cores predominantes do projeto. O restante material gráfico encontra-se a ser desenvolvido à data da entrega deste documento, pelo que náo poderá ser divulgado.</div>
                 </div>
           </div>
           <div className='projeto-content'>
+          <div className='projeto-content-incompleted about-text'> Em processo :)</div>
           </div>
         </Layout>
     )

@@ -26,7 +26,7 @@ function App() {
     <div>
      {loading ? (
         <div className="loader">
-        <GridLoader color="#ed635d" loading={loading} size={20} />
+        <GridLoader color="#fdfb3a" loading={loading} size={20} />
         </div>
       ) : (
         <>     
